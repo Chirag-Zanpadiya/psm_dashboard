@@ -40,14 +40,14 @@ const MiddleSections = () => {
           <input
             type="text"
             placeholder="Search"
-            className="block w-full py-3 lg:py-4 pl-10 pr-3 bg-white border border-transparent rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 "
+            className="block w-full py-2 lg:py-4 pl-10 pr-3 bg-white border border-transparent rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 "
           />
 
           {/*  */}
         </div>
 
         <div className="flex items-center  gap-1 lg:gap-2">
-          <button className=" order-2 md:order-1 flex items-center px-4 py-3 lg:py-4 space-x-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
+          <button className=" order-2 md:order-1 flex items-center px-4 py-2 lg:py-4 space-x-2 bg-gray-200 rounded-full hover:bg-gray-300 focus:outline-none">
             <span className=" block md:hidden font-bold text-sm lg:text-[16px] leading-5 text-[#061935]">
               All
             </span>
@@ -75,7 +75,7 @@ const MiddleSections = () => {
             </svg>
           </button>
 
-          <div className="flex py-2 px-4 lg:py-3 space-x-1 bg-gray-200 rounded-full">
+          <div className="flex py-1 px-4 lg:py-3 space-x-1 bg-gray-200 rounded-full">
             <button class="p-1.5 text-gray-500 hover:text-gray-700 focus:outline-none">
               <svg
                 className="w-5 h-5"

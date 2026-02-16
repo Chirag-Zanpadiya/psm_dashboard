@@ -90,7 +90,7 @@ const Chart = () => {
             </div>
           </div>
 
-          <div className="flex items-center px-4 py-2 bg-[#E3E6E9] rounded-full gap-2">
+          <div className="flex items-center px-4 py-3 bg-[#E3E6E9] rounded-full gap-2">
             <span className=" text-[12px] font-bold text-[#061935]  leading-4">
               1M
             </span>

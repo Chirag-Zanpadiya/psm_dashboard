@@ -97,7 +97,7 @@ const OceanMoneyCard = () => {
           Access a wide range of opportunities from real-estate to tokenized
           funds
         </p>
-        <button className="bg-[#1a2138] border hidden md:block border-gray-600 hover:bg-[#252c48] text-white px-6 py-2.5 rounded-full font-bold text-[14px] leading-4">
+        <button className="bg-[#1a2138] border hidden md:block border-gray-600 hover:bg-[#252c48] text-white px-6 py-3 rounded-full font-bold text-[14px] leading-4">
           Explore Cards
         </button>
       </div>

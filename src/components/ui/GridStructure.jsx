@@ -545,9 +545,9 @@ const assets = [
   },
 ];
 const GridStructure = () => {
-  const [isEmpty, setIsEmpty] = useState(true);
+  const [isEmpty, setIsEmpty] = useState(false);
   return (
-    <div className="grid  w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-12 bg-red-200 p-4  gap-4 lg:gap-6 mt-8  ">
+    <div className="grid  w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-12  p-4  gap-4 lg:gap-6 mt-8  ">
       {/* chart div */}
       <div className="col-span-1 md:col-span-2 lg:col-span-9 bg-white p-4 xl:p-6 rounded-3xl   ">
         <Chart />

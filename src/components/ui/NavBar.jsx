@@ -14,63 +14,21 @@ import {
   User,
 } from "lucide-react";
 import React from "react";
+import Logo from "./Logo";
+import Button from "./Button";
+import Icon from "../Common/Icon";
 
 const NavBar = () => {
   return (
     <div className="h-full w-full ">
       <div className="flex justify-between">
-        <div className="flex gap-2 items-center w-fit  p-1">
-          <svg
-            width="26"
-            height="24"
-            viewBox="0 0 26 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11.7178 11.4984C5.25511 11.4984 0 6.34168 0 0H4.70438C4.70438 3.79589 7.84948 6.88209 11.7178 6.88209V11.4984Z"
-              fill="#061935"
-            />
-            <path
-              d="M25.513 11.4984C19.0503 11.4984 13.7951 6.34168 13.7951 0H18.4995C18.4995 3.79589 21.6446 6.88209 25.513 6.88209V11.4984Z"
-              fill="#061935"
-            />
-            <path
-              d="M11.7178 24C5.25511 24 0 18.8433 0 12.5016H4.70438C4.70438 16.2975 7.84948 19.3837 11.7178 19.3837V24Z"
-              fill="#061935"
-            />
-            <path
-              d="M25.513 24C19.0503 24 13.7951 18.8433 13.7951 12.5016H18.4995C18.4995 16.2975 21.6446 19.3837 25.513 19.3837V24Z"
-              fill="#061935"
-            />
-          </svg>
-
-          <h1 className="hidden lg:block font-bold ">OCEANMONEY</h1>
-        </div>
-
+        <Logo />
         <div className="hidden lg:flex items-center gap-1 ">
-          <div className="flex items-center gap-1 px-3 py-2 rounded-full bg-white hover:bg-blue-700 hover:text-white  ">
-            <Landmark size={12} />
-            <span className="text-sm font-sm ">Neo Banking</span>
-          </div>
-          <div className="flex items-center gap-1 px-3 py-2 rounded-full bg-white hover:bg-blue-700 hover:text-white  ">
-            <CircleDollarSign size={12} />
-            <span className="text-sm font-sm ">Crypto</span>
-          </div>
-          <div className="flex items-center gap-1 px-3 py-2 rounded-full bg-white hover:bg-blue-700 hover:text-white  ">
-            <Network size={12} />
-            <span className="text-sm font-sm  ">Wealth</span>
-          </div>
-          <div className="flex items-center gap-1 px-3 py-2 rounded-full bg-white hover:bg-blue-700 hover:text-white  ">
-            <ChartNoAxesCombined size={12} />
-            <span className="text-sm font-sm ">NFTs</span>
-          </div>
-          <div className="flex  items-center gap-1 px-3 py-2 rounded-full bg-white hover:bg-blue-700 hover:text-white  ">
-            <div className="flex gap-1 items-center ">
-              <IdCard size={14} />
-              <span className="text-sm font-sm ">Card</span>
-            </div>
-          </div>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="neobank"/>} >Neo Bank</Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="crypto"/>}>Crypto</Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="wealth"/>}>Wealth</Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="nfts"/>}>NFTs</Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="card"/>}>Card</Button>
         </div>
 
         <div className="flex gap-1 items-center  lg:gap-2">
@@ -80,7 +38,7 @@ const NavBar = () => {
               <span className="text-sm font-sm ">Transactions</span>
             </div>
             <div className=" lg:flex items-center gap-1 px-3 py-3 rounded-full bg-[#E3E6E9] hover:bg-blue-700 hover:text-white">
-              <Lightbulb  size={12} />
+              <Lightbulb size={12} />
             </div>
             <div className="flex items-center gap-1 px-3 py-3 rounded-full bg-[#E3E6E9] hover:bg-blue-700 hover:text-white">
               <BellRing size={12} />

@@ -24,25 +24,46 @@ const NavBar = () => {
       <div className="flex justify-between">
         <Logo />
         <div className="hidden lg:flex items-center gap-1 ">
-          <Button size="sm" weight="medium" leftIcon={<Icon name="neobank"/>} >Neo Bank</Button>
-          <Button size="sm" weight="medium" leftIcon={<Icon name="crypto"/>}>Crypto</Button>
-          <Button size="sm" weight="medium" leftIcon={<Icon name="wealth"/>}>Wealth</Button>
-          <Button size="sm" weight="medium" leftIcon={<Icon name="nfts"/>}>NFTs</Button>
-          <Button size="sm" weight="medium" leftIcon={<Icon name="card"/>}>Card</Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="neobank" />}>
+            Neo Bank
+          </Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="crypto" />}>
+            Crypto
+          </Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="wealth" />}>
+            Wealth
+          </Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="nfts" />}>
+            NFTs
+          </Button>
+          <Button size="sm" weight="medium" leftIcon={<Icon name="card" />}>
+            Card
+          </Button>
         </div>
 
         <div className="flex gap-1 items-center  lg:gap-2">
           <div className="flex items-center gap-1">
-            <div className="hidden lg:flex items-center gap-1 px-3 py-2 rounded-full bg-[#E3E6E9] hover:bg-blue-700 hover:text-white">
-              <FileText size={12} />
-              <span className="text-sm font-sm ">Transactions</span>
-            </div>
-            <div className=" lg:flex items-center gap-1 px-3 py-3 rounded-full bg-[#E3E6E9] hover:bg-blue-700 hover:text-white">
-              <Lightbulb size={12} />
-            </div>
-            <div className="flex items-center gap-1 px-3 py-3 rounded-full bg-[#E3E6E9] hover:bg-blue-700 hover:text-white">
-              <BellRing size={12} />
-            </div>
+            <Button
+              size="sm"
+              weight="medium"
+              leftIcon={<Icon name="transcation" />}
+            >
+              Transcation
+            </Button>
+
+            <Button
+              size="sm"
+              weight="medium"
+              className="py-3"
+              leftIcon={<Icon name="learning" />}
+            ></Button>
+
+            <Button
+              size="sm"
+              weight="medium"
+              leftIcon={<Icon name="bell" />}
+            >
+            </Button>
           </div>
 
           <div className=" rounded-md flex">
